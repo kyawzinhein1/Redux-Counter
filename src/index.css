@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: cornflowerblue;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    margin: 20px 40px;
+    border-radius: 10px;
+}
+
+.numberBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+.number{
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+button{
+    outline: none;
+    background-color: #fff;
+    color: cornflowerblue;
+    border: none;
+    padding: 6px 10px;    
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0 0 8px;
+}
